@@ -4,7 +4,7 @@ click
 pytest
 pylint
 ipython
-flask
+flask==1.1.4
 pylint-flask
 Flask-API
 requests

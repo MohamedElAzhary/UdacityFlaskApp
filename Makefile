@@ -24,8 +24,8 @@ test:
 	@cd tests; pytest -vv --cov-report term-missing --cov=web --cov=nlib test_*.py
 
 install:
-	pip3 install --upgrade pip && \
-    pip3 install --trusted-host pypi.python.org -r requirements.txt
+	pip install --upgrade pip && \
+	pip install --trusted-host pypi.python.org -r requirements.txt
 
 
 validate-csv:
