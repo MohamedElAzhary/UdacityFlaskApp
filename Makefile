@@ -3,7 +3,6 @@ juypter:
 
 setup:
 	@python3 -m venv .UdacityFlaskApp
-	@source .UdacityFlaskApp/bin/activate
 
 env:
 	#Show information about environment
