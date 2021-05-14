@@ -2,7 +2,8 @@ juypter:
 	@cd notebooks; PYTHONPATH=".." jupyter notebook api.ipynb
 
 setup:
-	python3 -m venv ~/environment/DevOps_Microservices/Lesson-3-Containerization/.newEnv
+	@python3 -m venv .UdacityFlaskApp
+	@source .UdacityFlaskApp/bin/activate
 
 env:
 	#Show information about environment
